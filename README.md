@@ -1,16 +1,30 @@
-# React + Vite
+# 🖼️ React Gallery & Photo Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic React application that fetches images via API with pagination, detailed image info, and download capabilities.
 
-Currently, two official plugins are available:
+## 🖼️ App Preview
+<p align="center">
+  <img src="./assets/Gallery%20.png" alt="Gallery Grid View" width="600"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔍 Detailed View
+<p align="center">
+  <img src="./assets/Galleryy.png" alt="Image Detail View" width="600"/>
+</p>
 
-## React Compiler
+## ✨ Features
+- 🌐 **Dynamic API Integration:** Dynamic image fetching from API.
+- 📄 **Pagination:** Smooth page switching (`Back` / `Next`).
+- 🔍 **Detailed View:** Full-page layout showing creator info and image metadata.
+- 📥 **Direct Image Downloads:** Single-click download option.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React.js, JavaScript (ES6+)
+- **Build Tool:** Vite
+- **Styling:** CSS3
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/PriyaSingh7877/Gallery-project.git](https://github.com/PriyaSingh7877/Gallery-project.git)
